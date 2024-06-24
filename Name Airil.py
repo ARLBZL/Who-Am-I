@@ -3,7 +3,8 @@ username = input("Enter name: ")
 name = "Airil"
 if username.lower() == name.lower():
     print("Welcome, Airil")
-    # Python3 code to calculate age in years
+
+    # Calculate age in years
     age = int(input("Enter age: "))
 
     from datetime import date
