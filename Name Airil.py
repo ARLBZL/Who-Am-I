@@ -15,7 +15,7 @@ if username.lower() == name.lower():
 
         return age
         
-    # Driver code 
+    # If age 
     if age == calculateAge(date(2002, 1, 21)):
         print("Correct.")
 
