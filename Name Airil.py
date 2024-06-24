@@ -18,6 +18,15 @@ if username.lower() == name.lower():
     # Driver code 
     if age == calculateAge(date(2002, 1, 21)):
         print("Correct.")
+
+        hobby = input("What is your hobby? ")
+        ans_hobby = "video games"
+
+        if hobby.lower() == ans_hobby.lower():
+            print("Correct.")
+        else:
+            print("Wrong.")
+
     else:
         print("Wrong.")
 else:
